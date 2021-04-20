@@ -1,8 +1,10 @@
 body {
   font-family: sans-serif;
   font-size: smaller;
+  margin: 0;
 }
-.navigation .logo img {
+.navigation .logo img,
+footer .logo img {
   width: 60px;
   margin: 10px 10px 5px 5px;
 }
@@ -11,16 +13,26 @@ a {
   color: black;
 }
 
-.navigation {
+.navigation,
+.menu-footer {
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
-.menu ul li {
+.menu ul li,
+p {
   text-decoration: none;
   display: inline-flex;
+  padding: 10px 10px;
 }
 
-header {
-  background-color: rgb(228, 217, 186);
+.main-photo img {
+  width: 100%;
+  margin: 0;
+}
+
+header,
+footer {
+  background-color: rgb(238, 234, 223);
 }
