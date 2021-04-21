@@ -38,10 +38,10 @@ a {
   width: 100%;
 }
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(238, 230, 230);
 }
 footer {
-  background-color: rgb(130, 131, 133);
+  background-color: rgb(78, 81, 87);
 }
 
 /* Index.html main info */
@@ -53,13 +53,13 @@ footer {
 /* General appearance */
 
 .section {
-  margin: 50px 100px 200px 100px;
+  margin: 50px 200px 100px 200px;
   text-align: justify;
 }
 
 /* About us */
 .quotes {
-  text-align: end;
+  text-align: start;
 }
 
 /* Contacts */
@@ -72,4 +72,25 @@ footer {
 }
 .contacts-text {
   padding-left: 40px;
+}
+.photo-about-us img {
+  width: 280px;
+  padding-left: 30px;
+}
+
+.section-about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-page-text,
+.about-us-text {
+  line-height: 1.6;
+}
+.gallery img {
+  width: 40%;
+}
+.gallery {
+  display: flex;
 }
