@@ -1,7 +1,8 @@
 body {
-  font-family: sans-serif;
-  font-size: smaller;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 12px;
   margin: 0;
+  color: rgb(59, 51, 51);
 }
 
 /* Headers and footers */
@@ -12,10 +13,11 @@ footer .logo img {
 }
 .slogan {
   font-style: italic;
+  color: rgb(59, 51, 51);
 }
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(59, 51, 51);
 }
 .navigation,
 .menu-footer {
@@ -38,10 +40,10 @@ a {
   width: 100%;
 }
 header {
-  background-color: rgb(238, 230, 230);
+  background-color: rgb(207, 198, 198);
 }
 footer {
-  background-color: rgb(78, 81, 87);
+  background-color: rgb(93, 95, 99);
 }
 
 /* Index.html main info */
@@ -70,9 +72,11 @@ footer {
 .section-contacts img {
   width: 400px;
 }
+
 .contacts-text {
   padding-left: 40px;
 }
+
 .photo-about-us img {
   width: 280px;
   padding-left: 30px;
@@ -90,7 +94,26 @@ footer {
 }
 .gallery img {
   width: 40%;
+  padding: 2px;
 }
 .gallery {
   display: flex;
+}
+
+.gallery-one-photo img {
+  width: 100%;
+  padding-top: 2px;
+}
+
+.section-gallery h4 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.section-gallery h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footer-text {
+  color: rgb(59, 51, 51);
 }
