@@ -3,36 +3,73 @@ body {
   font-size: smaller;
   margin: 0;
 }
+
+/* Headers and footers */
 .navigation .logo img,
 footer .logo img {
   width: 60px;
-  margin: 10px 10px 5px 5px;
+  margin: 10px 10px 10px 10px;
+}
+.slogan {
+  font-style: italic;
 }
 a {
   text-decoration: none;
   color: black;
 }
-
 .navigation,
 .menu-footer {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-
-.menu ul li,
-p {
+.menu-header {
+  width: 100%;
+  text-align: end;
+}
+.menu ul li {
   text-decoration: none;
   display: inline-flex;
   padding: 10px 10px;
 }
+.list {
+  width: 100%;
+}
+header {
+  background-color: rgb(255, 255, 255);
+}
+footer {
+  background-color: rgb(130, 131, 133);
+}
 
-.main-photo img {
+/* Index.html main info */
+.info-page-photo img {
   width: 100%;
   margin: 0;
 }
 
-header,
-footer {
-  background-color: rgb(238, 234, 223);
+/* General appearance */
+
+.section {
+  margin: 50px 100px 200px 100px;
+  text-align: justify;
+}
+
+/* About us */
+.quotes {
+  text-align: end;
+}
+
+/* Contacts */
+.section-contacts {
+  display: flex;
+  align-items: center;
+}
+.section-contacts img {
+  width: 400px;
+}
+.contacts-text {
+  padding-left: 40px;
 }
