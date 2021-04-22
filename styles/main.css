@@ -3,12 +3,16 @@ body {
   font-size: 11px;
   margin: 0;
   color: rgb(59, 51, 51);
+  line-height: 1.6;
 }
 
 /* Hyperlink style */
 a {
   text-decoration: none;
   color: rgb(59, 51, 51);
+}
+a:hover {
+  color: rgb(131, 12, 12);
 }
 
 /* Headers and footers */
@@ -46,6 +50,10 @@ header {
 footer {
   background-color: rgb(93, 95, 99);
 }
+.footer-text {
+  color: rgb(59, 51, 51);
+  font-size: 10px;
+}
 
 /* Index.html main photo */
 .info-page-photo img {
@@ -53,28 +61,25 @@ footer {
   margin: 0;
 }
 
-/* General appearance */
+/* General appearance of main page information */
 .section {
   margin: 50px 200px 100px 200px;
   text-align: justify;
 }
 
-.info-page-text,
-.about-us-text {
-  line-height: 1.6;
-}
-
 /* Contacts */
 .section-contacts {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
 }
 .section-contacts img {
-  width: 400px;
+  width: 170px;
 }
 
 .contacts-text {
   padding-left: 40px;
+  align-self: center;
 }
 
 /* About us */
@@ -117,28 +122,23 @@ footer {
   text-align: center;
   padding-bottom: 10px;
 }
-.footer-text {
-  color: rgb(59, 51, 51);
-  font-size: 10px;
-}
+
+/* Services */
 
 .section-services img {
-  width: 200px;
-  padding-right: 20px;
+  width: 290px;
+  padding-right: 0px;
 }
 
 .section-services {
   display: flex;
   justify-content: space-between;
 }
-
 .section-services ul li {
+  list-style-type: none;
 }
-
-h3 {
+.service-text {
   text-align: center;
-  padding-top: 30px;
-}
-.section-services {
-  line-height: 2;
+  padding: 0 0 10px 0;
+  margin: 0;
 }
