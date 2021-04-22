@@ -59,6 +59,10 @@ footer {
 .info-page-photo img {
   width: 100%;
   margin: 0;
+  opacity: 0.9;
+}
+.info-page-photo img:hover {
+  opacity: 1;
 }
 
 /* General appearance of main page information */
@@ -76,6 +80,9 @@ footer {
 .section-contacts img {
   width: 170px;
 }
+.section-contacts img:hover {
+  opacity: 0.5;
+}
 
 .contacts-text {
   padding-left: 40px;
@@ -86,6 +93,10 @@ footer {
 .photo-about-us img {
   width: 250px;
   padding-left: 30px;
+  padding-right: 30px;
+}
+.photo-about-us img:hover {
+  transform: scaleX(-1);
 }
 
 .quotes {
@@ -104,6 +115,12 @@ footer {
   width: 40%;
   padding: 2px;
 }
+
+.gallery img:hover {
+  transform: scale(1.01);
+  border: rgb(117, 62, 22) solid 1px;
+}
+
 .gallery {
   display: flex;
 }
@@ -128,6 +145,9 @@ footer {
 .section-services img {
   width: 290px;
   padding-right: 0px;
+}
+.section-services img:hover {
+  border-radius: 5%;
 }
 
 .section-services {
