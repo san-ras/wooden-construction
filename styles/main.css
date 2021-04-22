@@ -48,11 +48,17 @@ header {
   background-color: rgb(207, 198, 198);
 }
 footer {
-  background-color: rgb(93, 95, 99);
+  background-color: rgb(110, 112, 116);
 }
 .footer-text {
   color: rgb(59, 51, 51);
   font-size: 10px;
+}
+
+/* General appearance of main page information */
+.section {
+  margin: 50px 200px 100px 200px;
+  text-align: justify;
 }
 
 /* Index.html main photo */
@@ -63,12 +69,6 @@ footer {
 }
 .info-page-photo img:hover {
   opacity: 1;
-}
-
-/* General appearance of main page information */
-.section {
-  margin: 50px 200px 100px 200px;
-  text-align: justify;
 }
 
 /* Contacts */
@@ -141,7 +141,6 @@ footer {
 }
 
 /* Services */
-
 .section-services img {
   width: 290px;
   padding-right: 0px;
